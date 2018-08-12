@@ -10,6 +10,13 @@
   text-transform: uppercase;
 }
 
+.button--link {
+  display: inline-block;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .button--pill {
   background-color: transparent;
   border: 1px solid $button-pill-color;
@@ -17,11 +24,6 @@
   padding: .3rem .8rem;
   margin: 0 ($space / 2) 0 0;
   text-transform: none;
-}
-
-.button--link {
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
 .button--secondary {
